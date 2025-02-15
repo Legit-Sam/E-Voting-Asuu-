@@ -32,7 +32,9 @@ useEffect(() => {
   return(
     <nav>
       <div className="container nav_container">
-      <Link to="/" className="nav_logo">ASUU</Link>
+      <Link to="/" className="nav_logo">
+      <img src="images.jpg" alt="Asuu Image" />
+      </Link>
       <div>
 
      {showNav && <menu>

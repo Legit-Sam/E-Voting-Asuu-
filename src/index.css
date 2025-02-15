@@ -720,6 +720,10 @@ margin-bottom: 3rem;
     background: var(--color-gray-0);
 }
 
+.nav_logo img{
+    height: 3rem;
+}
+
 
 
 
