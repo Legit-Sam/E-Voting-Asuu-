@@ -46,7 +46,7 @@ export const candidates = [
       image: Candidate1,
       motto: "Sed quibusdam recusandae alias error harum maxime adipisci amet laborum.",
       voteCount: 23,
-      election: "e2",
+      election: "el",
     },
     {
       id: "c2",
@@ -70,7 +70,7 @@ export const candidates = [
       image: Candidate4,
       motto: "Candidate 4 Motto", // Fill in the motto
       voteCount: 3, // Initial vote count
-      election: "e2",
+      election: "e3",
     },
     {
       id: "c5",
@@ -94,7 +94,7 @@ export const candidates = [
       image: Candidate7,
       motto: "Candidate 7 Motto", // Fill in the motto
       voteCount: 3, // Initial vote count
-      election: "e2",
+      election: "el",
     },
   ];
 

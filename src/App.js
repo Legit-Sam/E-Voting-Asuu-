@@ -10,6 +10,8 @@ import Candidates from "./pages/Candidates";
 import Congrats from "./pages/Congrats";
 import Logout from "./pages/Logout";
 
+// npm install @reduxjs/toolkit react-redux --save --force
+
 const router = createBrowserRouter([
   {
     path: "/",
