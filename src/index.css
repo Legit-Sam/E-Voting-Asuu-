@@ -1,9 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: 0;
+    box-sizing: border-box;
+}
 
 :root {
-    --color-primary: rgb(15, 89, 193);
-    --color-primary-variant: rgb(11, 175, 207);
+    --color-primary: rgb(139, 69, 19); /* Brown */
+    --color-primary-variant: rgb(245, 222, 179); /* Milky (Wheat) */
     --color-gray-0: #fff;
     --color-gray-100: #eee;
     --color-gray-200: #ccc;
@@ -25,17 +33,6 @@
     --container-w-sm: 94%;
     --transition: all 300ms ease;
 }
-
-
-*{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-    border: 0;
-    box-sizing: border-box;
-}
-
 
 .dark {
     --color-gray-0: #000014; 
@@ -178,7 +175,7 @@ nav{
     background: var(--color-primary);
     display: grid;
     place-items: center;
-    height: 3rem;
+    height: 5rem;
     position: fixed;
     top: 0;
     left: 0;
@@ -207,8 +204,18 @@ nav{
 .nav_logo{
     font-size: 1.2rem;
     font-weight: 700;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    width: 4rem;
+
 }
 
+.nav_logo img{
+    object-fit: contain;
+    border-radius: 100%;
+
+}
 
 .nav_theme_toggle_btn{
     background: transparent;
@@ -235,6 +242,7 @@ nav{
     font-size: 1.5rem;
     display: flex;
     transition: var(--transition);
+    display: none;
 }
 
 .theme_toggle_btn:hover{
